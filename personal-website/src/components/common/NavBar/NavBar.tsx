@@ -1,19 +1,20 @@
 import React from 'react';
-import HomeButton from '../NavButtons/HomeButton';
-import AboutButton from '../NavButtons/AboutButton';
-import ProjectsButton from '../NavButtons/ProjectsButton';
-import WorkButton from '../NavButtons/WorkButton';
+
+import HomeLink from '../NavLink/HomeLink';
+import AboutLink from '../NavLink/AboutLink';
+import ProjectsLink from '../NavLink/ProjectsLink';
+import WorkLink from '../NavLink/WorkLink';
+
+// import './NavBar.style.scss';
 
 function NavBar () {
     return (
-     <>
      <div>
-        <HomeButton />
-        <AboutButton />
-        <ProjectsButton />
-        <WorkButton />
+        <HomeLink />
+        <AboutLink />
+        <ProjectsLink />
+        <WorkLink />
      </div>
-     </>
     );
 }
 
