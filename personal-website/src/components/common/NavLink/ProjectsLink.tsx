@@ -1,13 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-import './NavLink.style.scss';
-
+import { Link } from '@chakra-ui/react';
+import { Link as ReactLink } from 'react-router-dom';
 
 function ProjectsLink() {
-
     return (
-        <Link to="/projects" className="NavLink">
+        <Link
+            as={ReactLink}
+            to="/projects"
+            color="gray.dark"
+            _hover={{
+                fontWeight: 'bold',
+            }}
+        >
             Projects
         </Link>
     )

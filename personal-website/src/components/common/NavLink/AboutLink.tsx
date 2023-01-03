@@ -1,12 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
-import './NavLink.style.scss';
+import { Link } from '@chakra-ui/react';
+import { Link as ReactLink } from 'react-router-dom';
 
 function AboutLink() {
-
     return (
-        <Link to="\about" className="NavLink">
+        <Link
+            as={ReactLink}
+            to="/about"
+            color="gray.dark"
+            _hover={{
+                fontWeight: 'bold',
+            }}
+        >
             About
         </Link>
     )
