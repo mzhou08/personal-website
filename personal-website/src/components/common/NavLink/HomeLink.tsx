@@ -1,19 +1,24 @@
 import React from 'react';
-import { Link } from '@chakra-ui/react';
+import { Flex, Link } from '@chakra-ui/react';
 import { Link as ReactLink } from 'react-router-dom';
 
 function HomeLink() {
     return (
-        <Link
-            as={ReactLink}
-            to="/"
-            color="gray.dark"
-            _hover={{
-                fontWeight: 'bold',
-            }}
+        <Flex
+            justifyContent='center'
         >
-            Home
-        </Link>
+            <Link
+                as={ReactLink}
+                to='/'
+                color='gray.dark'
+                _hover={{
+                    fontWeight: 'bold',
+                }}
+            >
+                Home
+            </Link>
+        </Flex>
+        
     )
 }
 
