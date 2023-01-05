@@ -1,19 +1,16 @@
 import React from 'react';
-import { Container, Flex, Spacer } from '@chakra-ui/react';
+import { Container, Flex } from '@chakra-ui/react';
 
-import HomeLink from '../NavLink/HomeLink';
-import AboutLink from '../NavLink/AboutLink';
-import ProjectsLink from '../NavLink/ProjectsLink';
-import WorkLink from '../NavLink/WorkLink';
+import NavLink from '../NavLink/NavLink';
 
 function NavBar () {
     return (
         <Container w='66.666666%'>
             <Flex justifyContent='space-between'>
-                <HomeLink />
-                <AboutLink />
-                <ProjectsLink />
-                <WorkLink />
+                <NavLink content='Home' to='/'/>
+                <NavLink content='About' to='/about'/>
+                <NavLink content='Projects' to='/projects'/>
+                <NavLink content='Work' to='/work'/>
             </Flex>
         </Container>
     );
