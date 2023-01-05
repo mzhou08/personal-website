@@ -1,19 +1,18 @@
 import React from 'react';
-import HomeButton from '../NavButtons/HomeButton';
-import AboutButton from '../NavButtons/AboutButton';
-import ProjectsButton from '../NavButtons/ProjectsButton';
-import WorkButton from '../NavButtons/WorkButton';
+import { Container, Flex } from '@chakra-ui/react';
+
+import NavLink from '../NavLink/NavLink';
 
 function NavBar () {
     return (
-     <>
-     <div>
-        <HomeButton />
-        <AboutButton />
-        <ProjectsButton />
-        <WorkButton />
-     </div>
-     </>
+        <Container w='66.666666%'>
+            <Flex justifyContent='space-between'>
+                <NavLink content='Home' to='/'/>
+                <NavLink content='About' to='/about'/>
+                <NavLink content='Projects' to='/projects'/>
+                <NavLink content='Work' to='/work'/>
+            </Flex>
+        </Container>
     );
 }
 
