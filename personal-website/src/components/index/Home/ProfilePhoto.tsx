@@ -1,7 +1,7 @@
 import React from 'react';
 import { Image, Center } from '@chakra-ui/react';
 
-function Photo () {
+function ProfilePhoto () {
     return (
         <Center>
             <Image
@@ -19,4 +19,4 @@ function Photo () {
     )
 }
 
-export default Photo;
+export default ProfilePhoto;
