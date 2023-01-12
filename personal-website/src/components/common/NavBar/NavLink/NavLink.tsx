@@ -10,7 +10,7 @@ function NavLink(props: any) {
         >
             <Link
                 color='gray.dark'
-                fontSize='heading'
+                fontSize='h2'
                 opacity='0.5'
                 _hover={{
                     opacity: '1.0',

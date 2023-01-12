@@ -11,7 +11,9 @@ const theme = extendTheme({
     }
   },
   fontSizes: {
-    heading: '40px',
+    h1: '64px',
+    h2: '40px',
+    paragraph: '32px',
   },
 })
 
