@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Flex } from '@chakra-ui/react';
 
-import NavLink from '../NavLink/NavLink';
+import NavLink from './NavLink/NavLink';
 
 function NavBar () {
     return (

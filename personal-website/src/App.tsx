@@ -5,7 +5,7 @@ import {
   Route,
 } from 'react-router-dom';
 
-import NavBar from "./components/common/NavBar/NavBar";
+import Home from './components/index/Home/Home';
 
 
 function App() {
@@ -13,8 +13,7 @@ function App() {
     <div className="App">
         <Router>
             <div>
-              <NavBar />
-
+              <Home />
               <Routes>
                 <Route path='/'>
                   <></>
