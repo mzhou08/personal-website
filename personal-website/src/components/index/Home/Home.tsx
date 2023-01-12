@@ -5,6 +5,7 @@ import NavBar from '../../common/NavBar/NavBar';
 import ProfilePhoto from './ProfilePhoto';
 import LogoBar from './LogoBar/LogoBar';
 import Header from './Header';
+import Welcome from './Welcome';
 
 function Home() {
     return (
@@ -22,11 +23,18 @@ function Home() {
             {/* Intro Heading */}
             <GridItem
                 colStart={3} colEnd={7}
-                rowStart={2} rowEnd={4}
+                rowStart={2} rowEnd={3}
             >
                 <Header />
             </GridItem>
 
+            {/* Welcome Text */}
+            <GridItem
+                colStart={3} colEnd={7}
+                rowStart={3} rowEnd={5}
+            >
+                <Welcome />
+            </GridItem>
 
             {/* Profile Photo */}
             <GridItem
