@@ -10,7 +10,7 @@ function LogoLink(
                 href={props.link}
             >
                 <Image
-                    height='80px'
+                    height='72px'
                     src={props.src}
                     filter='drop-shadow(2px 2px 2px #373737)'
                 />

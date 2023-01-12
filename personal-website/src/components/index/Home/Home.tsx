@@ -4,6 +4,7 @@ import { Grid, GridItem } from '@chakra-ui/react';
 import NavBar from '../../common/NavBar/NavBar';
 import ProfilePhoto from './ProfilePhoto';
 import LogoBar from './LogoBar/LogoBar';
+import Header from './Header';
 
 function Home() {
     return (
@@ -13,13 +14,33 @@ function Home() {
             bg='#B5DCCD'
             // gap={2}
         >
+            {/* Nav Bar */}
             <GridItem colSpan={12}>
                 <NavBar />
             </GridItem>
-            <GridItem colStart={8} colEnd={11} rowStart={2} rowEnd={4}>
+
+            {/* Intro Heading */}
+            <GridItem
+                colStart={3} colEnd={7}
+                rowStart={2} rowEnd={4}
+            >
+                <Header />
+            </GridItem>
+
+
+            {/* Profile Photo */}
+            <GridItem
+                colStart={8} colEnd={11}
+                rowStart={2} rowEnd={4}
+            >
                 <ProfilePhoto />
             </GridItem>
-            <GridItem colStart={8} colEnd={11} rowStart={4} rowEnd={5}> 
+
+            {/* Logo Bar */}
+            <GridItem
+                colStart={8} colEnd={11}
+                rowStart={4} rowEnd={5}
+            > 
                 <LogoBar />
             </GridItem>
         </Grid>
