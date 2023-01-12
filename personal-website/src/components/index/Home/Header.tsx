@@ -1,5 +1,5 @@
 import React from "react";
-import { Highlight, Text } from '@chakra-ui/react';
+import { Text } from '@chakra-ui/react';
 
 function Header() {
     return (
