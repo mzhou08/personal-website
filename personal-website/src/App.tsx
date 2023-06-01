@@ -1,35 +1,29 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
+  createBrowserRouter,
+  RouterProvider,
 } from 'react-router-dom';
 
 import Home from './components/index/Home/Home';
+import Work from './components/index/Work/Work';
 
 
 function App() {
+  // initialize router
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/work",
+      element: <Work />
+    }
+  ]);
+
   return (
     <div className="App">
-        <Router>
-            <div>
-              <Home />
-              <Routes>
-                <Route path='/'>
-                  <></>
-                </Route>
-                <Route path='/about'>
-                  <></>
-                </Route>
-                <Route path='/projects'>
-                  <></>
-                </Route>
-                <Route path='/work'>
-                  <></>
-                </Route>
-              </Routes>
-            </div>
-        </Router>
+        <RouterProvider router={router} />
     </div>
   );
 }
