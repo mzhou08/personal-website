@@ -5,6 +5,8 @@ import { ChakraProvider } from '@chakra-ui/react';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import "./index.css";
+
 import theme from './static/chakra-styles/theme';
 
 const rootElement: HTMLElement  = document.getElementById('root')!;

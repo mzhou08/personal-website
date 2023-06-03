@@ -4,8 +4,8 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 
-import Home from './components/index/Home/Home';
-import Work from './components/index/Work/Work';
+import Home from './components/pages/Home/Home';
+import Work from './components/pages/Work/Work';
 
 
 function App() {
