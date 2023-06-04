@@ -7,7 +7,11 @@ function NavBar () {
         name: string, path: string
     ) {
         return (
-            <Link to={path} className="text-center align-middle my-auto font-header font-extrabold tracking-widest">
+            <Link
+                to={path}
+                className="text-center align-middle my-auto \
+                font-header font-extrabold tracking-widest text-pastel-400 \
+                decoration-wavy underline-offset-4 hover:underline">
                 {name.toUpperCase()}
             </Link>
         )
@@ -24,7 +28,7 @@ function NavBar () {
 
 
     return (
-        <div className="absolute w-3/4 h-1/8 right-0">
+        <div className="absolute w-3/4 h-1/10 right-0 shadow-lg">
             <div className="fixed w-3/4 h-1/10 flex justify-evenly">
                 {
                     pageArgs.map(

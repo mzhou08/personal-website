@@ -20,6 +20,12 @@ module.exports = {
       height: {
         '1/10': '10%',
       },
+      colors: {
+        'pastel-100': '#F6F6F6',
+        'pastel-200': '#F1EFEB',
+        'pastel-300': '#EDEDED',
+        'pastel-400': '#576F72',
+      },
     },
   },
   plugins: [],

@@ -8,13 +8,13 @@ export default function BuildPage(
 ) {
     return (
         <div className="h-full w-full">
-            <SideBar />
-            <NavBar />
-            <div className="absolute w-3/4 right-0 top-1/10 bg-yellow-100">
-                <div className="w-4/5 m-auto bg-yellow-300">
+            <div className="absolute w-3/4 right-0 top-1/10">
+                <div className="w-4/5 m-auto bg-pastel-200">
                     { displayComponent(props) }
                 </div>
             </div>
+            <SideBar />
+            <NavBar />
         </div>
     )
 };
