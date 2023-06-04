@@ -1,8 +1,8 @@
 import React from 'react';
-import NavBar from '../NavBar/NavBar';
-import SideBar from '../SideBar/SideBar';
+import NavBar from './NavBar/NavBar';
+import SideBar from './SideBar/SideBar';
 
-export default function PageTemplate(
+export default function BuildPage(
     props: any,
     displayComponent: React.FunctionComponent,
 ) {
@@ -11,7 +11,9 @@ export default function PageTemplate(
             <SideBar />
             <NavBar />
             <div className="absolute w-3/4 right-0 top-1/10 bg-yellow-100">
-                { displayComponent(props) }
+                <div className="w-4/5 m-auto bg-yellow-300">
+                    { displayComponent(props) }
+                </div>
             </div>
         </div>
     )
