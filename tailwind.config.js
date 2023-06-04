@@ -9,8 +9,8 @@ module.exports = {
       'body': ["Helvetica\\ Neue", "Helvetica", "Arial", "sans-serif"],
     },
     extend: {
-      margin: {
-        '1/6': '16.666%'
+      inset: {
+        "1/10": "10%",
       },
       padding: {
         '1/4': '25%',

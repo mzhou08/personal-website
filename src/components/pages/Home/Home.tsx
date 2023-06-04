@@ -2,9 +2,17 @@ import React from 'react';
 import PageTemplate from '../../common/PageTemplate/PageTemplate';
 
 
-function Home() {
+function HomeComponent() {
     return (
-        <PageTemplate />
+        <div className="w-full h-full">
+            HOMEPAGE
+        </div>
+    )
+};
+
+function Home(props: any) {
+    return (
+        PageTemplate(props, HomeComponent)
     )
 }
 
