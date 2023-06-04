@@ -1,9 +1,12 @@
 import React from 'react';
 import LogoBar from '../LogoBar/LogoBar';
+import HorizantalBar from '../HorizontalBar/HorizontalBar';
 
 function SideBar () {
     return (
-        <div className="fixed w-1/4 h-full bg-pastel-200 shadow-xl">
+        <div
+            className="fixed w-1/4 h-full bg-pastel-200 shadow-xl \
+            bg-[#e5e5f7] opacity-80 background-image-radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px) bg-[length:10px_10px]">
             {/* Profile Photo */}
             <div className="flex w-full h-1/3">
                 <img
@@ -27,8 +30,7 @@ function SideBar () {
                 Student | Researcher | Builder
             </div>
 
-            {/* Separator */}
-            <hr className="h-px w-2/3 mx-auto my-4 bg-pastel-400 border-0 dark:bg-gray-700" />
+            <HorizantalBar center={true}/>
 
             {/* Intro */}
             <div className="pt-0 pb-0 p-8">
@@ -44,8 +46,7 @@ function SideBar () {
                 </div>
             </div>
 
-            {/* Separator */}
-            <hr className="h-px w-2/3 mx-auto my-4 bg-pastel-400 border-0 dark:bg-gray-700" />
+            <HorizantalBar center={true}/>
 
             {/* Logos/Links */}
             <LogoBar />

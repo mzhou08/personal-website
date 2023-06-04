@@ -1,5 +1,6 @@
 import React from 'react';
 import BuildPage from '../../common/BuildPage';
+import HorizantalBar from '../../common/HorizontalBar/HorizontalBar';
 
 
 function HomeComponent() {
@@ -16,8 +17,7 @@ function HomeComponent() {
                 My corner of the Internet.
             </div>
 
-            {/* Separator */}
-            <hr className="h-px w-2/3 my-4 bg-pastel-400 border-0 dark:bg-gray-700" />
+            <HorizantalBar center={false}/>
 
             <div className="font-body text-left text-pastel-400">
                 I made this site with React.js and TailwindCSS. Source code can be
