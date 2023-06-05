@@ -14,6 +14,9 @@ export default function BuildPage(
                 </div>
             </div>
             <SideBar />
+            {/* Vertical Divider */}
+            <div className="fixed h-full left-1/4 w-0 z-50 \
+            border-l border-pastel-400 border-solid" />
             <NavBar />
         </div>
     )

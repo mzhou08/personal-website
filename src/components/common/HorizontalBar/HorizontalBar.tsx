@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function HorizantalBar(
+export default function HorizontalBar(
     props: {center: boolean}
 ) {
     return (
