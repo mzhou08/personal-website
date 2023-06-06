@@ -28,7 +28,7 @@ function NavBar () {
 
 
     return (
-        <div className="absolute w-3/4 h-1/10 right-0 shadow-lg">
+        <div className="fixed w-3/4 h-1/10 right-0 shadow-lg bg-white">
             <div className="fixed w-3/4 h-1/10 flex justify-evenly">
                 {
                     pageArgs.map(
