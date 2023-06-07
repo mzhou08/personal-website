@@ -1,17 +1,19 @@
 import React from 'react';
 
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function NavBar () {
+    const location = useLocation();
+
     function toNavBarLink(
-        name: string, path: string
+        name: string, path: string, isCurrPath: boolean
     ) {
         return (
             <Link
                 to={path}
-                className="text-center align-middle my-auto \
+                className={`text-center align-middle my-auto ${isCurrPath ? "underline" : ""} \
                 font-header font-extrabold tracking-widest text-pastel-400 \
-                decoration-wavy underline-offset-4 hover:underline">
+                decoration-wavy underline-offset-4 hover:underline`}>
                 {name.toUpperCase()}
             </Link>
         )
@@ -32,7 +34,7 @@ function NavBar () {
             <div className="fixed w-3/4 h-1/10 flex justify-evenly">
                 {
                     pageArgs.map(
-                        (args) => (toNavBarLink(args.name, args.path))
+                        (args) => (toNavBarLink(args.name, args.path, args.path === location.pathname))
                     )
                 }
             </div>

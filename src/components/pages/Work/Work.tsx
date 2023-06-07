@@ -20,7 +20,7 @@ function WorkComponent() {
             sideHeader: 'Concepts in Artificial Intelligence',
             location: 'Pittsburgh, PA',
             dates: 'Spring 2023',
-            description: 'Introductory AI course taught by Prof. Reid Simmons. Covers Heuristic Search, Markov Decision Processes, Reinforcement Learning & Q-Learning, Decision Trees, and Neural Nets.',
+            description: 'Introductory AI course taught by Prof. Reid Simmons. Covers Heuristic Search, Markov Decision Processes, Reinforcement Learning & Q-Learning, Decision Trees, and Neural Nets. Authored course notes on decision trees, perceptrons, and KNN classification. Held weekly office hours and taught recitations.',
         },
     ]
 
@@ -37,14 +37,14 @@ function WorkComponent() {
             sideHeader: 'Software Engineering Intern',
             location: 'Singapore, SG',
             dates: 'May 2022 - Aug 2022',
-            description: 'My team designed and built an authentication & authorization service (QAuth) for a $3bn+ AUM hedge fund. Created a custom permission syntax, and wrote authorization algorithms. Developed a Python library to integrate QAuth into applications.\n\nAlso, trading projects. Wrote some trading algorithms + a Python stock exchange for algorithmic agents to trade against each other'
+            description: 'My team designed and built an authentication & authorization service (QAuth) for a $3bn+ AUM hedge fund. Created a custom permission syntax, and wrote authorization algorithms. Developed a Python library to integrate QAuth into applications.\n\nAlso, trading projects. Wrote some trading algorithms + a Python stock exchange for algorithmic agents to trade against each other.'
         },
         {
             mainHeader: 'LearningClues',
             sideHeader: 'Full-Stack Software Engineer',
             location: 'Ann Arbor, MI',
             dates: 'Jun 2021 - Jan 2023',
-            description: 'Full-Stack Development, and spearheaded prototyping and product development efforts for Studyguide, a new company direction',
+            description: 'Full-Stack Development, and spearheaded prototyping and product development efforts for Studyguide, a new company direction. Implemented Learning Tools Interoperability (LTI) endpoints, enabling integration with popular learning platforms. Added security checks to an API endpoint used for 600+ classes, restricting users to current course content.',
         },
     ]
 
@@ -73,7 +73,7 @@ function WorkComponent() {
                 WORK
             </div>
             <HorizontalBar center={false} />
-            <div className="font-body text-left">
+            <div className="font-body text-left pb-4">
                 I've had the privilege to experience a variety of roles at some great teams.
                 Here's a brief history.
             </div>
