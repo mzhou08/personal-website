@@ -67,7 +67,7 @@ function WorkComponent() {
 
     return (
         <div className="w-full p-8">
-            <div className="font-header text-left text-pastel-400 \
+            {/* <div className="font-header text-left text-pastel-400 \
             text-2xl font-bold tracking-widest \
             pt-4">
                 WORK
@@ -76,7 +76,7 @@ function WorkComponent() {
             <div className="font-body text-left pb-4">
                 I've had the privilege to experience a variety of roles at some great teams.
                 Here's a brief history.
-            </div>
+            </div> */}
             <div className="font-body text-left font-bold text-xl pt-4 text-pastel-400">
                 TA EXPERIENCE
             </div>
