@@ -22,7 +22,7 @@ function NavBar () {
     const pageArgs = [
         {name: "Home", path: "/"},
         {name: "About", path: "/about"},
-        {name: "Projects", path: "projects"},
+        {name: "Projects", path: "/projects"},
         {name: "Work", path: "/work"},
         {name: "Resume", path: "/resume"},
         {name: "Contact", path: "/contact"},

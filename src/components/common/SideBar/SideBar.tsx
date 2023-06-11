@@ -5,8 +5,7 @@ import HorizontalBar from '../HorizontalBar/HorizontalBar';
 function SideBar () {
     return (
         <div
-            className="fixed w-1/4 h-full bg-pastel-200 \
-            bg-[#e5e5f7] opacity-80 background-image-radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px) bg-[length:10px_10px]">
+            className="fixed w-1/4 h-full bg-pastel-200">
             {/* Profile Photo */}
             <div className="flex w-full h-1/3">
                 <img

@@ -6,6 +6,7 @@ import {
 
 import Home from './components/pages/Home/Home';
 import Work from './components/pages/Work/Work';
+import Projects from './components/pages/Projects/Projects';
 
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
     {
       path: "/work",
       element: <Work />
+    },
+    {
+      path: "/projects",
+      element: <Projects />
     }
   ]);
 
