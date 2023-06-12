@@ -41,7 +41,7 @@ function ProjectComponent() {
         (exp, idx) => {
             alignLeft = !alignLeft;
             entries.push(
-                <div key={idx} className="clear-both">
+                <div key={idx}>
                     {ProjectEntry({alignLeft, ...exp})}
                 </div>
             );
@@ -51,7 +51,6 @@ function ProjectComponent() {
     return (
         <div className="w-full p-8">
             {entries}
-            <div className="clear-both"/>
         </div>
     )
 }

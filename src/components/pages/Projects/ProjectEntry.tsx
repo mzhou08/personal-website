@@ -11,17 +11,17 @@ export default function ProjectEntry (props: {
 }) {
     return (
         // card representing the entries 
-        <div className="display-block clear-both">
+        <div className={`flex ${props.alignLeft ? "flex-row" : "flex-row-reverse"}`}>
             {/* Thumbnail Image */}
             
-            <div className={`flex align-center w-1/2 aspect-square bg-white float-${props.alignLeft ? "left" : "right"}`}>
+            <div className="flex align-center w-1/2 aspect-square bg-white">
                 <img
                 src={`images/${props.imgFile}`}
                 alt={props.mainHeader}
                 className="w-full p-8 object-contain"
                 />
             </div>
-            <div className={`w-1/2 p-8 float-left`}>
+            <div className="w-1/2 p-8">
                 <div className="font-body text-left text-pastel-400 \
                 text-lg font-bold tracking-wide">
                     {props.mainHeader.toUpperCase()}
