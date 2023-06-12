@@ -11,8 +11,8 @@ function SideBar () {
                 <img
                     src='/images/profile.jpeg'
                     alt='credit to josh chin'
-                    className="m-auto rounded-full w-2/3 \
-                    border-8 border-solid border-pastel-400 \
+                    className="m-auto p-2 rounded-full w-2/3 \
+                    border-4 border-solid border-pastel-500 \
                     shadow-lg"
                 />
             </div>
