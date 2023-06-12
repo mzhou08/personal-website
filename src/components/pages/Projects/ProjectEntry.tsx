@@ -21,7 +21,7 @@ export default function ProjectEntry (props: {
                 className="w-full p-8 object-contain"
                 />
             </div>
-            <div className="w-1/2 p-8 float-left">
+            <div className={`w-1/2 p-8 float-left`}>
                 <div className="font-body text-left text-pastel-400 \
                 text-lg font-bold tracking-wide">
                     {props.mainHeader.toUpperCase()}

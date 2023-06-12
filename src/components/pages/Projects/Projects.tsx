@@ -3,7 +3,6 @@ import React from 'react';
 
 import ProjectEntry from './ProjectEntry';
 import BuildPage from '../../common/BuildPage';
-import HorizontalBar from '../../common/HorizontalBar/HorizontalBar';
 
 function ProjectComponent() {
 
@@ -14,7 +13,7 @@ function ProjectComponent() {
             sideHeader: 'Collaborative Browser Extension',
             location: 'Pittsburgh, PA',
             dates: 'Spring 2022',
-            description: 'Created screen-sharing application that projects clicks onto browser windows, facilitating non-invasive collaboration. Won TartanHacks 2022 Best Use of Google Cloud Award'
+            description: 'Created screen-sharing application that projects clicks onto browser windows, facilitating non-invasive collaboration. TartanHacks 2022 Best Use of Google Cloud Award'
         },
         {
             imgFile: "scottyrank-bare.png",
@@ -48,8 +47,6 @@ function ProjectComponent() {
             );
         }
     )
-
-    console.log(entries);
 
     return (
         <div className="w-full p-8">
