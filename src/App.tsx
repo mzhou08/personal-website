@@ -7,6 +7,7 @@ import {
 import Home from './components/pages/Home/Home';
 import Work from './components/pages/Work/Work';
 import Projects from './components/pages/Projects/Projects';
+import Resume from './components/pages/Resume/Resume';
 
 
 function App() {
@@ -23,7 +24,11 @@ function App() {
     {
       path: "/projects",
       element: <Projects />
-    }
+    },
+    {
+      path: "/resume",
+      element: <Resume />
+    },
   ]);
 
   return (
