@@ -8,6 +8,7 @@ import Home from './components/pages/Home/Home';
 import Work from './components/pages/Work/Work';
 import Projects from './components/pages/Projects/Projects';
 import Resume from './components/pages/Resume/Resume';
+import About from './components/pages/About/About';
 
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
     {
       path: "/",
       element: <Home />,
+    },
+    {
+      path: "/about",
+      element: <About />,
     },
     {
       path: "/work",
