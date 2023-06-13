@@ -28,9 +28,9 @@ function HomeComponent() {
                         Github
                     </a>. Feel free to use & reuse as you please!
                 <br/><br/>
-                On this site, you can find everything from my resume to projects to recent reads.
+                On this site, you can find everything from my resume to projects to recent reads (coming soon). Enjoy!
                 <br/><br/>
-                FILLER TEXT HERE
+                Disclaimer: This site is still a work in progress, so there may be a few quirks.
             </div>
         </div>
         
