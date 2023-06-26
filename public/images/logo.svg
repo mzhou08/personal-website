@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <polyline style="stroke: rgb(0, 0, 0); stroke-linejoin: bevel; fill: rgb(162, 132, 194); stroke-width: 17px;" points="260.216 117.609 346.997 38.232 463.003 375.82 370.405 461.768 328.675 343.62"/>
+  <polyline style="stroke: rgb(0, 0, 0); stroke-linejoin: bevel; fill: rgb(131, 193, 166); stroke-width: 17px;" points="158.782 157.854 242.28 65.068 336.966 369.74 226.452 448.73 137.848 67.285"/>
+  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0); stroke-width: 17px; stroke-dasharray: 30px;" x1="140.744" y1="59.472" x2="36.997" y2="151.542"/>
+</svg>
