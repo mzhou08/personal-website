@@ -5,7 +5,7 @@ import { Document, Page, pdfjs } from "react-pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function ResumeComponent() {
-    const fileName = "/resume/Michael_Zhou_Resume_2324.pdf";
+    const fileName = "/resume/Michael_Zhou_Resume_23-24.pdf";
 
     return (
         <div className="m-auto p-8">

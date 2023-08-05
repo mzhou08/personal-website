@@ -12,8 +12,7 @@ function SideBar () {
                     src='/images/profile.jpeg'
                     alt='credit to josh chin'
                     className="m-auto p-2 rounded-full w-2/3 \
-                    border-4 border-solid border-pastel-500 \
-                    shadow-lg"
+                    border-t-8 border-solid border-pastel-200"
                 />
             </div>
 

@@ -1,24 +1,23 @@
 import React from 'react';
+import { faLinkedinIn, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 
 import LogoLink from './LogoLink';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 function LogoBar() {
     return (
         <div className="flex justify-center h-16 p-4">
             <LogoLink
-                src="/images/linkedin-logo.png"
+                icon={faLinkedinIn as IconProp}
                 link="https://www.linkedin.com/in/michaelhzhou/"
-                desc="LinkedIn"
             />
             <LogoLink
-                src="/images/github-logo.svg"
+                icon={faGithub as IconProp}
                 link="https://github.com/mzhou08"
-                desc="GitHub"
             />
             <LogoLink
-                src="/images/medium-logo.png"
+                icon={faMedium as IconProp}
                 link="https://medium.com/@mzhou08"
-                desc="Medium"
             />
         </div>
                 
