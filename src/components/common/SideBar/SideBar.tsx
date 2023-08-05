@@ -8,12 +8,19 @@ function SideBar () {
             className="fixed w-1/4 h-full bg-pastel-200">
             {/* Profile Photo */}
             <div className="flex w-full h-1/3">
-                <img
-                    src='/images/profile.jpeg'
-                    alt='credit to josh chin'
-                    className="m-auto p-2 rounded-full w-2/3 \
-                    border-t-8 border-solid border-pastel-200"
-                />
+                <div
+                    className="m-auto rounded-full w-2/3 \
+                    border-b-8 border-l-8 border-solid border-pastel-400 shadow-l"    
+                >
+                    <img
+                        src='/images/profile.jpeg'
+                        alt='credit to josh chin'
+                        className="m-auto rounded-full w-full \
+                        border-t-8 border-r-8 border-solid border-pastel-300 \
+                        p-1"
+                    />
+                </div>
+                
             </div>
 
             {/* Name */}
@@ -53,7 +60,7 @@ function SideBar () {
             <div className="text-center italic text-pastel-400 \
             text-m font-body font-regular tracking-regular \
             p-4">
-                Michael Zhou, 2023
+                &copy; Michael Zhou, 2023
             </div>
         </div>
     )

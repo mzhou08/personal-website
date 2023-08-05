@@ -30,7 +30,7 @@ function NavBar () {
 
 
     return (
-        <div className="fixed w-3/4 h-1/10 right-0 shadow-lg bg-white">
+        <div className="fixed w-3/4 h-1/10 right-0 shadow-lg bg-pastel-100">
             <div className="fixed w-3/4 h-1/10 flex justify-evenly">
                 {
                     pageArgs.map(
