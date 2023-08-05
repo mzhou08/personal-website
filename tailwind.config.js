@@ -21,10 +21,10 @@ module.exports = {
         '1/10': '10%',
       },
       colors: {
-        'pastel-100': '#E8EDED',
-        'pastel-200': '#D1DCD3',
+        'pastel-100': '#FCF8ED',
+        'pastel-200': '#D5DDD4',
         'pastel-300': '#825E6F',
-        'pastel-400': '#212E31',
+        'pastel-400': '#32414A',
         'pastel-500': '#181925',
       },
     },
