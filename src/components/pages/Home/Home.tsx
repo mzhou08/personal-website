@@ -5,13 +5,13 @@ import HorizontalBar from '../../common/HorizontalBar/HorizontalBar';
 
 function HomeComponent() {
     return (
-        <div className="w-full p-8">
-            <div className="font-header text-left text-pastel-400 \
+        <div className="w-full">
+            <h1 className="font-header text-left text-pastel-text \
             text-2xl font-header font-bold tracking-widest \
             pt-4">
                 Welcome
-            </div>
-            <div className="font-header text-left text-pastel-400 \
+            </h1>
+            <div className="font-header text-left text-pastel-text \
             text-normal font-header font-regular tracking-widest \
             pt-4">
                 My corner of the Internet.
@@ -19,7 +19,7 @@ function HomeComponent() {
 
             <HorizontalBar center={false}/>
 
-            <div className="font-body text-left text-pastel-400">
+            <div className="">
                 I made this site with React.js and TailwindCSS. Source code can be
                 found on <a
                         href="https://github.com/mzhou08/personal-website"

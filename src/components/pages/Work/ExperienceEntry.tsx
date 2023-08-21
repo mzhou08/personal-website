@@ -10,21 +10,15 @@ function ExperienceEntry (props: {
     return (
         // card representing the entries 
         <div className="pb-4">
-            <div className="font-body text-left text-pastel-400 \
-            text-lg font-bold tracking-wide \
-            float-left">
+            <h1 className="font-bold float-left">
                 {props.mainHeader.toUpperCase()}
-            </div>
-            <div className="font-body text-left text-pastel-400 \
-            text-lg tracking-wide \
-            float-left">
+            </h1>
+            <h2 className="float-left">
                 &nbsp;| {props.sideHeader.toUpperCase()}
-            </div>
-            <div className="
-            clear-both font-body text-left text-pastel-400 \
-            text-xs tracking-wide">
+            </h2>
+            <h3 className="clear-both">
                 {props.dates.toUpperCase()}
-            </div>
+            </h3>
             <div className="font-body text-left">
                 {props.description}
             </div>

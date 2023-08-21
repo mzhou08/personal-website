@@ -26,8 +26,8 @@ function WorkComponent() {
 
     const workExperiences = [
         {
-            mainHeader: 'Lawrence Livermore National Laboratory',
-            sideHeader: 'Global Security Research Intern',
+            mainHeader: 'Lawrence Livermore Natl. Lab',
+            sideHeader: 'Research Intern',
             location: 'Livermore, CA',
             dates: 'May 2023 - Aug 2023',
             description: 'Researching applications of machine learning for cybersecurity threat detection and ﬁngerprinting'
@@ -66,15 +66,15 @@ function WorkComponent() {
 
 
     return (
-        <div className="w-full p-8">
-            <div className="font-body text-left font-bold text-xl pt-4 text-pastel-400">
+        <div className="w-full">
+            <h1 className="pt-4">
                 TA EXPERIENCE
-            </div>
+            </h1>
             <HorizontalBar center={false} />
             {taEntries}
-            <div className="font-body text-left font-bold text-xl pt-4 text-pastel-400">
+            <h1 className="pt-4">
                 INDUSTRY EXPERIENCE
-            </div>
+            </h1>
             <HorizontalBar center={false} />
             {workEntries}
         </div>

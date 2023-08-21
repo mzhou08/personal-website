@@ -21,20 +21,17 @@ export default function ProjectEntry (props: {
                 className="w-full p-8 object-contain"
                 />
             </div>
-            <div className="w-1/2 p-8">
-                <div className="font-body text-left text-pastel-400 \
-                text-lg font-bold tracking-wide">
+            <div className="w-1/2 px-8 pt-8">
+                <h1 className="">
                     {props.mainHeader.toUpperCase()}
-                </div>
-                <div className="font-body text-left text-pastel-400 \
-                text-lg tracking-wide">
+                </h1>
+                <h2 className="">
                     {props.sideHeader.toUpperCase()}
-                </div>
-                <div className="font-body text-left text-pastel-400 \
-                text-xs tracking-wide">
+                </h2>
+                <h3 className="">
                     {props.dates.toUpperCase()}
-                </div>
-                <div className="font-body text-left">
+                </h3>
+                <div className="">
                     {props.description}
                 </div>
             </div>

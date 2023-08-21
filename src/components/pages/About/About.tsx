@@ -5,23 +5,23 @@ import HorizontalBar from '../../common/HorizontalBar/HorizontalBar';
 
 function AboutComponent() {
     return (
-        <div className="w-full p-8">
-            <div className="font-body text-left font-bold text-xl pt-4 text-pastel-400">
+        <div className="w-full">
+            <h1 className="pt-4">
                 INTRO
-            </div>
+            </h1>
 
             <HorizontalBar center={false}/>
 
-            <div className="font-body text-left text-pastel-400">
+            <div className="">
                 I grew up in Ann Arbor, MI and now study in Pittsburgh, PA.
                 I'm an undergrad student at Carnegie Mellon, studying Computer Science.
                 Subjects of interest include computers and algorithms (obviously),
                 probability theory & math (a bit less obvious), and behavioral science (not so obvious).
             </div>
 
-            <div className="font-body text-left font-bold text-xl pt-4 text-pastel-400">
+            <h1 className="pt-4">
                 MY HOBBIES
-            </div>
+            </h1>
 
             <HorizontalBar center={false}/>
 
@@ -33,9 +33,9 @@ function AboutComponent() {
                 <li>Card Games - Nothing better to pass the time than a game of poker, fish, or bridge.</li>
             </ul>
 
-            <div className="font-body text-left font-bold text-xl pt-4 text-pastel-400">
+            <h1 className="pt-4">
                 TRAVEL
-            </div>
+            </h1>
 
             <HorizontalBar center={false}/>
 

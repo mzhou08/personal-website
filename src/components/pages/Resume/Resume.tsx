@@ -8,7 +8,7 @@ function ResumeComponent() {
     const fileName = "/resume/Michael_Zhou_Resume_23-24.pdf";
 
     return (
-        <div className="m-auto p-8">
+        <div className="m-auto">
             <Document
             file={ fileName }
             className="flex justify-center"

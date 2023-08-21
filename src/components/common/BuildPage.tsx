@@ -9,14 +9,14 @@ export default function BuildPage(
     return (
         <div className="h-full w-full bg-pastel-100">
             <div className="absolute w-3/4 right-0 top-1/10">
-                <div className="w-4/5 m-auto bg-pastel-200">
-                    { displayComponent(props) }
+                <div className="w-4/5 m-auto bg-pastel-200 p-16">
+                    { displayComponent(props) /* ADD MAX WIDTH HERE */}
                 </div>
             </div>
             <SideBar />
             {/* Vertical Divider */}
             <div className="fixed h-full left-1/4 w-0 z-50 \
-            border-l border-pastel-400 border-solid" />
+            border-l border-pastel-500 border-solid" />
             <NavBar />
         </div>
     )

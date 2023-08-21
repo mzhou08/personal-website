@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-left text-slate-800 text-2xl font-body font-bold tracking-wide leading-8;
+    }
+
+    h2 {
+        @apply text-left text-slate-800 text-xl font-body font-normal tracking-wide leading-8;
+    }
+
+    h3 {
+        @apply text-left text-slate-800 text-base font-body font-normal tracking-wide leading-8;
+    }
+
+    div {
+        @apply text-left text-slate-800 text-lg font-body font-normal tracking-normal leading-8;
+    }
+}
+
+@layer utilities {
+    #roll-one {
+        animation: roll-up-one 8s infinite cubic-bezier(.75,0,.25,1);
+    }
+    
+    @keyframes roll-up-one {
+      0%, 100% { transform: translateY(0) }
+      25%, 50% { transform: translateY(-25%) }
+      50%, 75% { transform: translateY(-50%) }
+      75% { transform: translateY(-75%) }
+    }
+}

@@ -12,7 +12,7 @@ function NavBar () {
             <Link
                 to={path}
                 className={`text-center align-middle my-auto ${isCurrPath ? "underline" : ""} \
-                font-header font-extrabold tracking-widest text-pastel-400 \
+                font-header font-extrabold tracking-widest text-pastel-text \
                 decoration-wavy underline-offset-4 hover:underline`}>
                 {name.toUpperCase()}
             </Link>
