@@ -4,6 +4,6 @@ export default function HorizontalBar(
     props: {center: boolean}
 ) {
     return (
-        <hr className={`h-px w-2/3 ${props.center ? "mx-auto" : "right-0"} my-4 bg-pastel-400 border-0 dark:bg-gray-700`} />
+        <hr className={`h-0 w-full ${props.center ? "mx-auto" : "right-0"} my-4 border-dashed border-top-2 border-pastel-500`} />
     )
 }
