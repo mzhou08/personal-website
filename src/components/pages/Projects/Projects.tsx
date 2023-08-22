@@ -8,6 +8,14 @@ function ProjectComponent() {
 
     const projects = [
         {
+            imgFile: "t-ai-logo.png",
+            mainHeader: 'T-AI',
+            sideHeader: 'Teaching Assistant for Educational Videos',
+            location: 'Pittsburgh, PA',
+            dates: 'Spring 2023',
+            description: 'Developed AI teaching assistant to answer student questions and assess understanding using video content. TartanHacks 2023 Grand Prize'
+        },
+        {
             imgFile: "click-color.png",
             mainHeader: 'ClickShare',
             sideHeader: 'Collaborative Browser Extension',
