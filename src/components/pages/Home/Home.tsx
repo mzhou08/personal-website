@@ -7,12 +7,12 @@ function HomeComponent() {
     return (
         <div className="w-full">
             <h1 className="font-header text-left text-pastel-text \
-            text-2xl font-header font-bold tracking-widest \
+            text-2xl font-bold tracking-widest \
             pt-4">
                 Welcome
             </h1>
             <div className="font-header text-left text-pastel-text \
-            text-normal font-header font-regular tracking-widest \
+            text-normal font-regular tracking-widest \
             pt-4">
                 My corner of the Internet.
             </div>
