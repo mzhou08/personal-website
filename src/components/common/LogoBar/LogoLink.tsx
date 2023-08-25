@@ -9,7 +9,7 @@ function LogoLink(
         <a href={props.link} className="h-full pr-2 pl-2">
             <FontAwesomeIcon
                 icon={props.icon}
-                className="h-full text-pastel-text/50"
+                className="h-full text-pastel-text opacity-50 hover:opacity-100"
             />
         </a>
     )
