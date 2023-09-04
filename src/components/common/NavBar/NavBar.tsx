@@ -11,6 +11,7 @@ function NavBar () {
         return (
             <Link
                 to={path}
+                key={name}
                 className={`text-center align-middle my-auto ${isCurrPath ? "underline" : ""} \
                 font-header font-extrabold tracking-widest text-pastel-text \
                 decoration-wavy underline-offset-4 hover:underline`}>
