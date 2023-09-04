@@ -4,69 +4,69 @@ import HorizontalBar from '../HorizontalBar/HorizontalBar';
 
 function SideBar () {
     return (
-        <div
-            className="fixed w-1/4 h-full px-8 bg-pastel-200">
-            {/* Profile Photo */}
-            <div className="flex w-full h-1/3">
-                <div
-                    className="m-auto rounded-full w-2/3 \
-                    border-b-8 border-l-8 border-solid border-pastel-400 shadow-l"    
-                >
-                    <img
-                        src='/images/profile.jpeg'
-                        alt='credit to josh chin'
-                        className="m-auto rounded-full w-full \
-                        border-t-8 border-r-8 border-solid border-pastel-text \
-                        p-1"
-                    />
+        <div className="fixed w-1/4 h-full px-8 bg-pastel-200 overflow-scroll">
+            <div className="flex flex-col">
+                {/* Profile Photo */}
+                <div className="flex flex-col w-full aspect-square">
+                    <div
+                        className="flex justify-self-center m-auto rounded-full w-2/3 aspect-square \
+                        border-b-4 border-l-4 border-solid border-pastel-400"    
+                    >
+                        <img
+                            src='/images/profile.jpeg'
+                            alt='credit to josh chin'
+                            className="m-auto aspect-square rounded-full \
+                            p-1"
+                        />
+                    </div>
+                    
                 </div>
-                
-            </div>
 
-            {/* Name */}
-            <div className="text-center text-pastel-text \
-            text-3xl font-header font-bold tracking-widest \
-            ">
-                Michael Zhou
-            </div>
-            <div className="relative overflow-hidden">
-                <i className="w-full invisible" title="Thanks Anuda for knowing what a rolodex is">
-                    PLACEHOLDER
-                </i>
-                <ul id="roll-one" className="w-full absolute top-0 list-none">
-                    <li className="text-center text-pastel-text \
-                        text-lg font-header font-regular tracking-widest \
-                        ">student</li>
-                    <li className="text-center text-pastel-text \
-                        text-lg font-header font-regular tracking-widest \
-                        ">researcher</li>
-                    <li className="text-center text-pastel-text \
-                        text-lg font-header font-regular tracking-widest \
-                        ">engineer</li>
-                    <li className="text-center text-pastel-text \
-                        text-lg font-header font-regular tracking-widest \
-                        ">entrepreneur</li>
-                </ul>
-            </div>           
-            <HorizontalBar center={true}/>
-
-            {/* Intro */}
-            <div className="">
-                <div className="py-4">
-                    Hey, I'm Michael. Current junior at Carnegie Mellon SCS,
-                    lifelong learner, and appreciator of the elegant side of life.
-                    I'm passionate about using technology for social impact, especially in education.
+                {/* Name */}
+                <div className="text-center text-pastel-text \
+                text-3xl font-header font-bold tracking-widest \
+                ">
+                    Michael Zhou
                 </div>
-            </div>
+                <div className="relative overflow-hidden">
+                    <i className="w-full invisible" title="Thanks Anuda for knowing what a rolodex is">
+                        PLACEHOLDER
+                    </i>
+                    <ul id="roll-one" className="w-full absolute top-0 list-none">
+                        <li className="text-center text-pastel-text \
+                            text-lg font-header font-regular tracking-widest \
+                            ">student</li>
+                        <li className="text-center text-pastel-text \
+                            text-lg font-header font-regular tracking-widest \
+                            ">researcher</li>
+                        <li className="text-center text-pastel-text \
+                            text-lg font-header font-regular tracking-widest \
+                            ">engineer</li>
+                        <li className="text-center text-pastel-text \
+                            text-lg font-header font-regular tracking-widest \
+                            ">entrepreneur</li>
+                    </ul>
+                </div>           
+                <HorizontalBar center={true}/>
 
-            <HorizontalBar center={true}/>
+                {/* Intro */}
+                <div className="">
+                    <div className="py-4">
+                        Hey, I'm Michael. Current junior at Carnegie Mellon SCS,
+                        lifelong learner, and appreciator of the elegant side of life.
+                        I'm passionate about using technology for social impact, especially in education.
+                    </div>
+                </div>
 
-            {/* Logos/Links */}
-            <LogoBar />
+                <HorizontalBar center={true}/>
 
-            {/* Footnote */}
-            <div className="text-center text-pastel-text/50 text-sm p-4">
-                &copy; Michael Zhou | 2023
+                {/* Logos/Links */}
+                <LogoBar />
+
+                {/* Footnote */}
+                <div className="text-center text-pastel-text/50 text-sm p-4">
+                    &copy; Michael Zhou | 2023
+                </div>
             </div>
         </div>
     )
