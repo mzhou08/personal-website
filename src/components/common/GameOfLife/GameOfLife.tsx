@@ -103,7 +103,7 @@ export default function GameOfLife () {
                         <div key={`${i},${j}`} className={
                             ` aspect-square
                             bg-pastel-200
-                            ${isAlive ? "opacity-50" : "opacity-0"}`
+                            ${isAlive ? "opacity-25" : "opacity-0"}`
                         }>
                         </div>
                     )
