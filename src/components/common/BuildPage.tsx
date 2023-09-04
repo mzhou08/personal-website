@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar/NavBar';
 import SideBar from './SideBar/SideBar';
+import GameOfLife from './GameOfLife/GameOfLife';
 
 export default function BuildPage(
     props: any,
@@ -18,6 +19,7 @@ export default function BuildPage(
             <div className="fixed h-full left-1/4 w-0 z-50 \
             border-l border-pastel-500 border-solid" />
             <NavBar />
+            <GameOfLife />
         </div>
     )
 };

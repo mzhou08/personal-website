@@ -9,6 +9,9 @@ module.exports = {
       'body': ["Optima", "Segoe", "Segoe UI", "Candara", "Calibri", "Arial", "sans-serif"],
     },
     extend: {
+      gridTemplateColumns: {
+        "100": "repeat(100, 1fr)",
+      },
       inset: {
         "1/10": "10%",
       },
