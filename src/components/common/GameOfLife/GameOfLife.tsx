@@ -12,10 +12,10 @@ export default function GameOfLife () {
     let [grid, setGrid] = useState(() => {
         let rows = [];
 
-        for (let i = 0; i < W; i++) {
-            let row = Array(H);
+        for (let i = 0; i < H; i++) {
+            let row = Array(W);
 
-            for (let j = 0; j < H; j++) {
+            for (let j = 0; j < W; j++) {
                 const p = Math.random();
                 
                 row[j] = (p < SPAWN_RATE);
@@ -26,9 +26,9 @@ export default function GameOfLife () {
         return rows;
     });
 
-    function isValid (x: number, y: number): boolean {
+    function isValid (r: number, c: number): boolean {
         return (
-            x >= 0 && y >= 0 && x < W && y < H
+            c >= 0 && r >= 0 && c < W && r < H
         )
     }
 
@@ -56,15 +56,15 @@ export default function GameOfLife () {
                 return produce(
                     g,
                     draftGrid => {
-                        for (let i = 0; i < W; i++) {
-                            for (let j = 0; j < H; j++) {
+                        for (let i = 0; i < H; i++) {
+                            for (let j = 0; j < W; j++) {
                                 let aliveNbors = 0;
 
                                 for (let d = 0; d < ops.length; d++) {
-                                    const x1 = i + ops[d][0];
-                                    const y1 = j + ops[d][1];
+                                    const r1 = i + ops[d][0];
+                                    const c1 = j + ops[d][1];
 
-                                    if (isValid(x1, y1) && g[x1][y1]) {
+                                    if (isValid(r1, c1) && g[r1][c1]) {
                                         aliveNbors++;                                    
                                     }
                                 }
