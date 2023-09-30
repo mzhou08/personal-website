@@ -7,14 +7,13 @@ function ContactComponent() {
     return (
         <div className="w-full">
             <h1 className="pt-4">
-                THIS PAGE IS A WORK IN PROGRESS.
+               Let's Get in Touch 
             </h1>
 
             <HorizontalBar center={false}/>
 
             <div className="">
-                Imagine there's a cool form here for you to fill out.
-                For the time being, you can reach me at <a className="text-underline" href="mailto: mhzhou@andrew.cmu.edu">mhzhou@andrew.cmu.edu</a>
+                <a className="hover:underline underline-offset-4 decoration-1 decoration-wavy" href="mailto: michaelzhou@andrew.cmu.edu">michaelzhou [at] cmu [dot] edu</a>
             </div>
         </div>
         
