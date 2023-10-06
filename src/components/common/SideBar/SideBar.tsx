@@ -9,14 +9,14 @@ function SideBar () {
                 {/* Profile Photo */}
                 <div className="flex flex-col w-full aspect-square">
                     <div
-                        className="flex justify-self-center m-auto rounded-full w-2/3 aspect-square \
-                        border-b-4 border-l-4 border-solid border-pastel-400"    
+                        className="flex justify-self-center m-auto rounded-3xl w-2/3 aspect-square \
+                       "   
                     >
                         <img
                             src='/images/profile.jpeg'
                             alt='credit to josh chin'
-                            className="m-auto aspect-square rounded-full \
-                            p-1"
+                            className="m-auto aspect-square rounded-3xl \
+                            shadow-xl"
                         />
                     </div>
                     
