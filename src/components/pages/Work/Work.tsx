@@ -7,6 +7,16 @@ import HorizontalBar from '../../common/HorizontalBar/HorizontalBar';
 
 function WorkComponent() {
 
+    const researchExperiences = [
+        {
+            mainHeader: 'CMU Robotics Institute',
+            sideHeader: 'Pathak Lab',
+            location: 'Pittsburgh, PA',
+            dates: 'Fall 2023',
+            description: 'Researching self-supervised learning and generative models.',
+        },
+    ]
+    
     const taExperiences = [
         {
             mainHeader: '17-313',
@@ -48,6 +58,14 @@ function WorkComponent() {
         },
     ]
 
+    let researchEntries = researchExperiences.map(
+        (exp, idx) => (
+            <div key={idx}>
+                {ExperienceEntry(exp)}
+            </div>
+        )
+    );
+    
     let taEntries = taExperiences.map(
         (exp, idx) => (
             <div key={idx}>
@@ -68,15 +86,20 @@ function WorkComponent() {
     return (
         <div className="w-full">
             <h1 className="pt-4">
-                TA EXPERIENCE
+                RESEARCH
             </h1>
             <HorizontalBar center={false} />
-            {taEntries}
+            {researchEntries}
             <h1 className="pt-4">
-                INDUSTRY EXPERIENCE
+                INDUSTRY
             </h1>
             <HorizontalBar center={false} />
             {workEntries}
+            <h1 className="pt-4">
+                TEACHING
+            </h1>
+            <HorizontalBar center={false} />
+            {taEntries}
         </div>
     )
 }
