@@ -52,9 +52,8 @@ function SideBar () {
                 {/* Intro */}
                 <div className="">
                     <div className="py-4">
-                        Hey, I'm Michael. Current junior at Carnegie Mellon SCS and
-                        lifelong learner. Passionate about understanding the
-                        world around us.
+                        Hey, I'm Michael. Junior at Carnegie Mellon SCS and
+                        lifelong learner. Interested in ML, AI, and curious about many more things.
                     </div>
                 </div>
 
