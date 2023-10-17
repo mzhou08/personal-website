@@ -16,7 +16,7 @@ function SideBar () {
                             src='/images/profile.jpeg'
                             alt='credit to josh chin'
                             className="m-auto aspect-square rounded-3xl \
-                            shadow-xl"
+                            shadow-xl saturate-50 hover:saturate-100 transition-all"
                         />
                     </div>
                     
@@ -52,9 +52,9 @@ function SideBar () {
                 {/* Intro */}
                 <div className="">
                     <div className="py-4">
-                        Hey, I'm Michael. Current junior at Carnegie Mellon SCS,
-                        lifelong learner, and appreciator of the elegant side of life.
-                        I'm passionate about using technology for social impact, especially in education.
+                        Hey, I'm Michael. Current junior at Carnegie Mellon SCS and
+                        lifelong learner. Passionate about understanding the
+                        world around us.
                     </div>
                 </div>
 
