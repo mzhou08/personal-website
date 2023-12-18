@@ -26,7 +26,6 @@ function NavBar () {
         {name: "Projects", path: "/projects"},
         {name: "Work", path: "/work"},
         {name: "Resume", path: "/resume"},
-        {name: "Contact", path: "/contact"},
     ]
 
 

@@ -31,9 +31,9 @@ function HomeComponent() {
                     <Link to="/resume">Downloadable resum&#233;</Link>
                 </li>
                 <li><i className="fa-li fa-solid fa-address-book opacity-50 scale-75"></i>
-                    <Link to="/contact">My contact info (Let's talk!)</Link>
+                    <a href="mailto:michaelzhou@cmu.edu">Let's get in touch &#8212; send me an email!</a>
                 </li>
-                <li><i className="fa-li fa-solid fa-code opacity-50 scale-75"></i> Made with React + Tailwind. Feel free to use <a
+                <li><i className="fa-li fa-solid fa-code opacity-50 scale-75"></i> Made with React & Tailwind. Feel free to use <a
                         href="https://github.com/mzhou08/personal-website"
                         className="underline"
                     >

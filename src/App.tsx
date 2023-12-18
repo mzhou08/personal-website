@@ -9,7 +9,6 @@ import Work from './components/pages/Work/Work';
 import Projects from './components/pages/Projects/Projects';
 import Resume from './components/pages/Resume/Resume';
 import About from './components/pages/About/About';
-import Contact from './components/pages/Contact/Contact';
 
 
 function App() {
@@ -35,10 +34,6 @@ function App() {
       path: "/resume",
       element: <Resume />
     },
-    {
-      path: "/contact",
-      element: <Contact />
-    }
   ]);
 
   return (

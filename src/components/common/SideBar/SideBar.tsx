@@ -28,6 +28,7 @@ function SideBar () {
                 ">
                     Michael Zhou
                 </div>
+                <a className="text-center font-header" href="mailto: michaelzhou@andrew.cmu.edu">michaelzhou [at] cmu [dot] edu</a>
                 <div className="relative overflow-hidden">
                     <i className="w-full invisible" title="Thanks Anuda for knowing what a rolodex is">
                         PLACEHOLDER
