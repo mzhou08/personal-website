@@ -1,5 +1,5 @@
 import React from 'react';
-import { faLinkedinIn, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faXTwitter, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
 import LogoLink from './LogoLink';
@@ -15,6 +15,10 @@ function LogoBar() {
             <LogoLink
                 icon={faGithub as IconProp}
                 link="https://github.com/mzhou08"
+            />
+            <LogoLink
+                icon={faXTwitter as IconProp}
+                link="https://twitter.com/michaelhzhou"
             />
             <LogoLink
                 icon={faMedium as IconProp}
