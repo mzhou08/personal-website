@@ -1,29 +1,22 @@
 import React from 'react';
 import BuildPage from '../../common/BuildPage';
 
-import { Document, Page, pdfjs } from "react-pdf";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import { Document, Page, pdfjs} from "react-pdf";
 
 function ResumeComponent() {
-    const fileName = "/resume/Michael_Zhou_Resume_23-24.pdf";
+    const fileName = "/resume/resume.pdf";
+    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
     return (
-        <div className="m-auto">
-            <Document
-            file={ fileName }
-            className="flex justify-center"
-            >
-                <a href={fileName}>
-                    <Page
-                    pageNumber={1}
-                    renderTextLayer={false}
-                    renderAnnotationLayer={false}
-                    />
-                </a>
+        <a href={fileName}>
+            <Document file={ fileName }>
+                <Page
+                pageNumber={1}
+                renderTextLayer={false}
+                renderAnnotationLayer={false}
+                />
             </Document>
-        </div>
-        
-        
+        </a>
     )
 };
 
