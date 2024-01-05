@@ -12,6 +12,8 @@ function ResumeComponent() {
             <Document file={ fileName }>
                 <Page
                 pageNumber={1}
+                // scale={2}
+                renderMode='svg'
                 renderTextLayer={false}
                 renderAnnotationLayer={false}
                 />
