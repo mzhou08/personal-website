@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* For pdf */
+/* For Resume PDF, thanks to https://codesandbox.io/s/displaying-pdf-using-react-5d003?file=/src/styles.css*/
 .react-pdf__Page {
     aspect-ratio: 612/792 !important;
 }
