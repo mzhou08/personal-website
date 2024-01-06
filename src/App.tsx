@@ -43,7 +43,7 @@ function App() {
   const GOOGLE_ANALYTICS_MEASUREMENT_ID = process.env.REACT_APP_GOOGLE_ANALYTICS_MEASUREMENT_ID
   ReactGA.initialize(GOOGLE_ANALYTICS_MEASUREMENT_ID as string);
 
-  usePageTracking();
+  // usePageTracking();
 
   return (
     <div className="App">
