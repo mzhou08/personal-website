@@ -21,7 +21,7 @@ function ProjectComponent() {
             sideHeader: 'Collaborative Browser Extension',
             location: 'Pittsburgh, PA',
             dates: 'Spring 2022',
-            description: 'Created screen-sharing application that projects clicks onto browser windows, facilitating non-invasive collaboration. TartanHacks 2022 Google Cloud Award'
+            description: 'Screen-sharing application that projects clicks onto browser windows, facilitating non-invasive collaboration. TartanHacks 2022 Google Cloud Award'
         },
         {
             imgFile: "scottyrank-bare.png",
@@ -29,7 +29,7 @@ function ProjectComponent() {
             sideHeader: 'Julia Implementation of PageRank',
             location: 'Pittsburgh, PA',
             dates: 'Fall 2021',
-            description: 'Implemented a PageRank library with 1000+ lines of code, authored paper on PageRank\'s mathematical theory'
+            description: 'PageRank implementation in Julia.'
         },
         {
             imgFile: "bioinf-php.png",
@@ -37,7 +37,7 @@ function ProjectComponent() {
             sideHeader: 'Protein Analysis Pipeline',
             location: 'Ann Arbor, MI',
             dates: '2020',
-            description: 'Built a bioinformatics pipeline web application to automate various gene analysis tasks. Published 1st-Author Research Paper and presented at CLOUD 2020 International Conference on Cloud Computing'
+            description: 'Built a bioinformatics pipeline web application to automate various gene analysis tasks.'
         },
     ]
 
